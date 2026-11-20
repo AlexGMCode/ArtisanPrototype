@@ -12,7 +12,7 @@
 		<DalamudLibPath>$(appdata)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
 		<DalamudPluginPath>$(appdata)\XIVLauncher\installedPlugins\Artisan\$(version)</DalamudPluginPath>
 		<DalamudDevPlugins>$(appdata)\XIVLauncher\devPlugins\Artisan\</DalamudDevPlugins>
-		<AssemblyName>Artisan</AssemblyName>
+		<AssemblyName>ArtisanPrototype</AssemblyName>
 		<RootNamespace>Artisan</RootNamespace>
 		<PackageId>Artisan</PackageId>
 		<Product>Artisan</Product>

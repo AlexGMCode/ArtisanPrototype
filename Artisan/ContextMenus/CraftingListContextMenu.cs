@@ -103,7 +103,7 @@ internal static class CraftingListContextMenu
 
                 var subMenu = new MenuItem();
                 subMenu.IsSubmenu = true;
-                subMenu.Name = "Artisan Crafting List";
+                subMenu.Name = "ArtisanPrototype Crafting List";
                 subMenu.PrefixChar = 'A';
                 subMenu.PrefixColor = 706;
 
@@ -128,7 +128,7 @@ internal static class CraftingListContextMenu
                 if (listOfRecipes.Count > 0)
                 {
                     var menuItem = new MenuItem();
-                    menuItem.Name = "Create Artisan Crafting List For Outfit";
+                    menuItem.Name = "Create ArtisanPrototype Crafting List For Outfit";
                     menuItem.IsSubmenu = true;
                     menuItem.PrefixChar = 'A';
                     menuItem.PrefixColor = 706;
@@ -168,7 +168,7 @@ internal static class CraftingListContextMenu
 
             var subMenu = new MenuItem();
             subMenu.IsSubmenu = true;
-            subMenu.Name = "Artisan Crafting List";
+            subMenu.Name = "ArtisanPrototype Crafting List";
             subMenu.PrefixChar = 'A';
             subMenu.PrefixColor = 706;
 
@@ -222,7 +222,7 @@ internal static class CraftingListContextMenu
         if (CraftingListUI.selectedList.ID == 0)
         {
             var menuItem = new MenuItem();
-            menuItem.Name = "Add to New Artisan Crafting List";
+            menuItem.Name = "Add to New ArtisanPrototype Crafting List";
             menuItem.PrefixChar = 'A';
             menuItem.PrefixColor = 706;
             menuItem.OnClicked += clickedArgs => AddToNewList(ItemId, craftTypeIndex);
@@ -231,7 +231,7 @@ internal static class CraftingListContextMenu
             if (ingredientsSubCraft)
             {
                 var menuItem2 = new MenuItem();
-                menuItem2.Name = "Add to New Artisan Crafting List (with Sub-crafts)";
+                menuItem2.Name = "Add to New ArtisanPrototype Crafting List (with Sub-crafts)";
                 menuItem2.PrefixChar = 'A';
                 menuItem2.PrefixColor = 706;
                 menuItem2.OnClicked += clickedArgs => AddToNewList(ItemId, craftTypeIndex, true);
@@ -242,7 +242,7 @@ internal static class CraftingListContextMenu
         else
         {
             var menuItem = new MenuItem();
-            menuItem.Name = "Add to Current Artisan Crafting List";
+            menuItem.Name = "Add to Current ArtisanPrototype Crafting List";
             menuItem.PrefixChar = 'A';
             menuItem.PrefixColor = 706;
             menuItem.OnClicked += clickedArgs => AddToList(ItemId, craftTypeIndex);
@@ -251,7 +251,7 @@ internal static class CraftingListContextMenu
             if (ingredientsSubCraft)
             {
                 var menuItem2 = new MenuItem();
-                menuItem2.Name = "Add to Current Artisan Crafting List (with Sub-crafts)";
+                menuItem2.Name = "Add to Current ArtisanPrototype Crafting List (with Sub-crafts)";
                 menuItem2.PrefixChar = 'A';
                 menuItem2.PrefixColor = 706;
                 menuItem2.OnClicked += clickedArgs => AddToList(ItemId, craftTypeIndex, true);
